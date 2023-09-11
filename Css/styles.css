@@ -11,8 +11,8 @@ body{
     /* Meter um max ou min width aqui para que ele não precise utilizar o mediaq query */
 }
 .wrapper{
-    width: 17.5em;
-    height: 45vh;
+    width: 18.75em;
+    height: 50vh;
     padding: 0.813em;
     border-radius: 0.625em;
 }
@@ -30,6 +30,10 @@ body{
     border-radius: 0.625em;
 }
 
-/* .primary-text{
-    font-size: 15px;
-}  */
+.primary-text{
+    margin-top: 1.25em;
+    font-size: 21px;
+    color: var(--dark-blue);
+    font-weight: 700;
+    text-align: center;
+}  
