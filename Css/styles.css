@@ -8,20 +8,23 @@
 body{
     background-color: var(--light-gray);
     font-family: 'Outfit', sans-serif;
+    /* Meter um max ou min width aqui para que ele não precise utilizar o mediaq query */
 }
 .wrapper{
-    width: 40vw;
-    height: 55vh;
+    width: 300px;
+    height: 48vh;
 }
 .wrapper-banner{
     background-color: var(--white);
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
 }
 
  .image{
-    height: 35px;
+    height: 60%;
 }
 
 /* .primary-text{
