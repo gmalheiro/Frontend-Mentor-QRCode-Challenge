@@ -17,6 +17,7 @@ body{
     background-color: var(--white);
     position: absolute;
     left: 50%;
+    transform: translateX(-50%);
 }
 
  .image{
