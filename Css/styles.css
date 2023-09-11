@@ -9,7 +9,20 @@ body{
     background-color: var(--light-gray);
     font-family: 'Outfit', sans-serif;
 }
-
+.wrapper{
+    width: 40vw;
+    height: 55vh;
+}
 .wrapper-banner{
     background-color: var(--white);
+    position: absolute;
+    left: 50%;
 }
+
+ .image{
+    height: 35px;
+}
+
+/* .primary-text{
+    font-size: 15px;
+}  */
